@@ -1,10 +1,6 @@
-
 # Read, Rate, Reflect
 
-**Read, Rate, Reflect** is a simple and organized web application designed to help users track books they've read, rate them, and write personal notes. The app features a clean and user-friendly interface, allowing users to manage their reading journey smoothly and comfortably.
-
-## Live Preview
-Check out the live demo: [https://preview--read-rate-reflect.lovable.app/](https://preview--read-rate-reflect.lovable.app/)
+**Read, Rate, Reflect** is a simple and organized web application designed to help users track books they've read, rate them, and write personal notes. You can [experience the live demo here](https://preview--read-rate-reflect.lovable.app/). The app features a clean and user-friendly interface, allowing users to manage their reading journey smoothly and comfortably.
 
 ## Features
 
