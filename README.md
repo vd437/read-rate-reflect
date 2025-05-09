@@ -1,36 +1,51 @@
+
 # Read, Rate, Reflect
 
-**Read, Rate, Reflect** is a clean, minimalist frontend web application that allows users to track the books they’ve read, rate them, and write personal notes or reviews. The app is designed to be simple, responsive, and user-friendly, making it easy for book lovers to manage their reading journey.
+**Read, Rate, Reflect** is a simple and organized web application designed to help users track books they've read, rate them, and write personal notes. The app features a clean and user-friendly interface, allowing users to manage their reading journey smoothly and comfortably.
 
-[Live Demo](https://preview--read-rate-reflect.lovable.app/)
-
-[GitHub Repository](https://github.com/vd437/read-rate-reflect.git)
+## Live Preview
+Check out the live demo: [https://preview--read-rate-reflect.lovable.app/](https://preview--read-rate-reflect.lovable.app/)
 
 ## Features
 
-- **Add Books**: Input a book’s title, author, rating (1–5 stars), and personal notes.
-- **View Book List**: Browse all added books in a clean list format, showing key details and a notes preview.
-- **View Book Details**: Click on any book to see full information, including complete notes.
-- **Edit or Delete Books**: Easily update or remove books from your collection.
-- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices.
-- **Local Storage**: Saves user data in the browser’s `localStorage` to preserve it across sessions.
+- **Add a book**: Enter the book title, author, rating (1-5 stars), and personal notes.
+- **View book list**: Browse all added books in a simple, organized list displaying basic details.
+- **View book details**: Click on any book to view its complete information including notes.
+- **Edit or delete book**: Easily modify or remove books from your collection.
+- **Responsive design**: Compatible with all devices (desktop, tablet, mobile).
+- **Local storage**: User data is saved in **localStorage** to ensure retrieval when reopening the app.
 
-## Tech Stack
+## Project Structure
 
-| Technology      | Description                      |
-|----------------|----------------------------------|
-| React (JSX)     | JavaScript library for UI building |
-| JavaScript (.js)| Programming language             |
-| Vite            | Build tool and development server |
-| Tailwind CSS    | Utility-first CSS framework      |
-| shadcn-ui       | UI components library            |
+The project consists of several main directories containing subfolders for organizing code and components:
 
-## Getting Started
+- **public**: Public files like favicon and image assets.
+- **src**: Source files including:
+  - **components**: Reusable UI components.
+  - **context**: State management via context.
+  - **hooks**: Custom helper hooks.
+  - **lib**: Additional utility libraries.
+  - **pages**: Core application pages.
+  - **services**: Data or API handling services.
+  - **types**: Type definitions (TypeScript).
+  - Main files like: `App.tsx`, `main.tsx`, `index.css`, etc.
 
-To run this project locally:
+## Technologies Used
+
+| Technology      | Description                                  |
+|----------------|--------------------------------------------|
+| TypeScript      | JavaScript-based language with type support |
+| React (JSX)     | JavaScript library for building user interfaces |
+| Vite            | Fast build tool and development server     |
+| Tailwind CSS    | Utility-first CSS framework for design     |
+| shadcn-ui       | UI component library                      |
+| CSS             | For styling and design                    |
+
+## How to Run
+
+To run the project locally, follow these steps:
 
 1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/vd437/read-rate-reflect.git
-   
